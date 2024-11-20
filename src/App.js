@@ -4,7 +4,6 @@ import { MainBoard } from './components/MainBoard/MainBoard';
 import { groupTickets ,sortTickets} from './helpers/helper';
 // import { groupTickets, sortTickets } from './utils/helpers';
 import './App.css';
-
 function App() {
   const [tickets, setTickets] = useState([]);
   const [userData, setUserData] = useState({});
