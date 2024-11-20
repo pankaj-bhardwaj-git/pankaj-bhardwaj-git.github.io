@@ -1,0 +1,154 @@
+/* ====== MainBoard Styles ====== */
+
+/* MainBoard Grid */
+.mainboard-grid {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  .mainboard-tickets {
+    display: flex;
+    flex-direction: column; /* Ensures elements are stacked vertically */
+    gap: 10px; /* Adds a 10px gap between nested elements */
+    padding: 10px; /* Adds padding inside the container */
+  }
+  
+  /* MainBoard Column */
+  .mainboard-column {
+    flex: 1;
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mainboard-column-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align all children to the left */
+    width: 100%;
+  }
+  
+
+  
+  .mainboard-column-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Ensures alignment to the left */
+    text-align: left; /* Ensures text is aligned to the left */
+    gap: 10px; /* Adds spacing between child elements */
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 5px;
+    width: 100%; /* Ensures the title takes the full width */
+  }
+  
+  .mainboard-task-count {
+    background-color: #f0f0f0;
+    border-radius: 12px;
+    font-size: 14px;
+    padding: 2px 8px;
+    color: #555;
+  }
+  
+  /* MainBoard Card */
+  .mainboard-card {
+    position: relative; /* Set as relative container for child positioning */
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px; /* Space between cards */
+  }
+  
+  .mainboard-card-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .mainboard-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .mainboard-card-tag {
+    font-size: 12px;
+    color: #555;
+    background-color: #f5f5f5;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  
+  .mainboard-user-avatar {
+    position: absolute; /* Position relative to the parent */
+    top: 8px; /* Distance from the top */
+    right: 8px; /* Distance from the right */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #276404; /* Background color */
+    color: #fff;
+    width: 24px; /* Width of the avatar */
+    height: 24px; /* Height of the avatar */
+    font-size: 12px; /* Font size for initials */
+    font-weight: bold;
+    border-radius: 50%; /* Make it circular */
+    text-transform: uppercase; /* Uppercase for initials */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  }
+  /* Header Container */
+.mainboard-column-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distributes title and actions on either side */
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  /* Title Section */
+  .mainboard-column-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Ensures alignment to the left */
+    text-align: left;
+    gap: 8px; /* Spacing between title and task count */
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    width: 100%;
+  }
+  
+  /* Action Icons */
+  .mainboard-column-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between the icons */
+  }
+  
+  .mainboard-add-icon,
+  .mainboard-menu-icon {
+    width: 16px;
+    height: 16px;
+    cursor: pointer; /* Shows pointer cursor on hover */
+    opacity: 0.8; /* Slightly dimmed appearance */
+    transition: opacity 0.2s ease; /* Smooth hover effect */
+  }
+  
+  .mainboard-add-icon:hover,
+  .mainboard-menu-icon:hover {
+    opacity: 1; /* Brightens on hover */
+  }
+  
+  .mainboard-status-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px; /* Spacing between the icon and text */
+    display: inline-block; /* Ensures the icon is rendered inline */
+  }
+  
+  
